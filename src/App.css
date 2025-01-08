@@ -1,0 +1,64 @@
+:root {
+    --primary-dark-blue: #213555;
+    /* Primary Dark Blue */
+    --secondary-slate-blue: #3e5879;
+    /* Secondary Slate Blue */
+    --light-beige: #d8c4b6;
+    /* Light Beige */
+    --background-cream: #f5efe7;
+    /* Background Cream */
+}
+
+.app {
+    background-color: var(--background-cream);
+    color: var(--primary-dark-blue);
+    font-size: medium;
+
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-columns: 1fr;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    font-size: larger;
+    background-color: var(--primary-dark-blue);
+    color: var(--light-beige);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+main {
+    background-color: var(--background-cream);
+    color: var(--primary-dark-blue);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+
+footer {
+    font-size: large;
+    background-color: var(--primary-dark-blue);
+    color: var(--light-beige);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--light-beige);
+}

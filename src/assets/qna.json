@@ -1,0 +1,83 @@
+[
+  {
+    "id": 101,
+    "content": "What is the capital of France?",
+    "correct": "Paris",
+    "options": ["London", "Paris", "New Delhi", "Washington D.C."]
+  },
+  {
+    "id": 102,
+    "content": "What is the largest planet in our solar system?",
+    "correct": "Jupiter",
+    "options": ["Earth", "Jupiter", "Saturn", "Mars"]
+  },
+  {
+    "id": 103,
+    "content": "Who wrote the play 'Romeo and Juliet'?",
+    "correct": "William Shakespeare",
+    "options": [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Mark Twain",
+      "Jane Austen"
+    ]
+  },
+  {
+    "id": 104,
+    "content": "What is the chemical symbol for water?",
+    "correct": "H2O",
+    "options": ["O2", "H2O", "CO2", "H2"]
+  },
+  {
+    "id": 105,
+    "content": "What is the largest mammal in the world?",
+    "correct": "Blue whale",
+    "options": ["Elephant", "Blue whale", "Giraffe", "Shark"]
+  },
+  {
+    "id": 106,
+    "content": "In which continent is the country of Egypt located?",
+    "correct": "Africa",
+    "options": ["Asia", "Africa", "Europe", "South America"]
+  },
+  {
+    "id": 107,
+    "content": "Which element is represented by the symbol 'O'?",
+    "correct": "Oxygen",
+    "options": ["Oxygen", "Osmium", "Ozone", "Oganesson"]
+  },
+  {
+    "id": 108,
+    "content": "Which famous scientist developed the theory of relativity?",
+    "correct": "Albert Einstein",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Marie Curie",
+      "Nikola Tesla"
+    ]
+  },
+  {
+    "id": 109,
+    "content": "What is the currency of Japan?",
+    "correct": "Yen",
+    "options": ["Won", "Yen", "Dollar", "Ringgit"]
+  },
+  {
+    "id": 110,
+    "content": "Which country is known as the Land of the Rising Sun?",
+    "correct": "Japan",
+    "options": ["China", "Japan", "South Korea", "India"]
+  },
+  {
+    "id": 111,
+    "content": "Who painted the Mona Lisa?",
+    "correct": "Leonardo da Vinci",
+    "options": [
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Vincent van Gogh",
+      "Claude Monet"
+    ]
+  }
+]
