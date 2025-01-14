@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Quiz from './components/Quiz';
-import './App.css';
+import Quiz from "./components/Quiz";
+import "./App.css";
 
-const QUESTIONS_PATH = './src/assets/qna.json';
+const QUESTIONS_PATH = "./src/assets/qna.json";
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
 export default function App() {
@@ -20,7 +20,7 @@ export default function App() {
     try {
       const response = await fetch(QUESTIONS_PATH);
       if (!response.ok) {
-        throw new Error('Failded to fetch questions');
+        throw new Error("Failded to fetch questions");
       }
       const data = await response.json();
       setQuestions(data);

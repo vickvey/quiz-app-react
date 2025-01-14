@@ -1,9 +1,8 @@
-import PropTypes from 'prop-types';
-import './Question.css';
+import PropTypes from "prop-types";
 
 function Question({ id, content, options, correct, handleSubmit }) {
   return (
-    <form className='question' id={id} onSubmit={handleSubmit}>
+    <form className="question" id={id} onSubmit={handleSubmit}>
       <p>{content}</p>
       {options.map((option, index) => (
         <label key={index}>

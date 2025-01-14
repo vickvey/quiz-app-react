@@ -9,6 +9,10 @@
   /* Background Cream */
 }
 
-.question {
-  padding: 2rem;
+.timer {
+  background-color: var(--primary-dark-blue);
+  color: var(--background-cream);
+  padding: 1.5rem;
+  font-size: large;
+  border-radius: 2%;
 }
