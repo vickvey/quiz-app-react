@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import Question from './Question';
-import Quiz from './Quiz';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Quiz from './components/Quiz';
 import './App.css';
 
 const QUESTIONS_PATH = './src/assets/qna.json';
@@ -37,11 +38,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <header>
-        <h1>Quiz App</h1>
-        <p>A simple timer based quiz app written in ReactJS</p>
-      </header>
-
+      <Header />
       <main>
         {!playQuiz ? (
           <div>
@@ -53,12 +50,7 @@ export default function App() {
           <div>Loading ...</div>
         )}
       </main>
-      <footer>
-        <span>
-          Developed by: <a href="#">Alex Biswas</a>
-        </span>
-        <span>Copyright 2025</span>
-      </footer>
+      <Footer />
     </div>
   );
 }
